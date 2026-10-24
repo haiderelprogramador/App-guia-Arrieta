@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.UsuariosRender" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorPrimaryVariant">@color/primario_oscuro</item>
+        <item name="colorOnPrimary">@color/blanco</item>
+        <item name="colorSecondary">@color/acento</item>
+        <item name="colorOnSecondary">@color/blanco</item>
+        <item name="android:statusBarColor">@color/primario_oscuro</item>
+        <item name="android:windowBackground">@color/fondo</item>
+    </style>
+
+    <style name="Theme.UsuariosRender.SinBarra">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

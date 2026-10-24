@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primario">#1E4FA3</color>
+    <color name="primario_oscuro">#163B7A</color>
+    <color name="acento">#D7262E</color>
+    <color name="fondo">#F4F6FA</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="texto_secundario">#5F6673</color>
+    <color name="estado_activo">#2E7D32</color>
+    <color name="estado_pendiente">#B26A00</color>
+    <color name="estado_inactivo">#C62828</color>
+</resources>

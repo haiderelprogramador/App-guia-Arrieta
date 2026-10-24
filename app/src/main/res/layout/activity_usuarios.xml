@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primario_oscuro"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/blanco"
+            android:textSize="13sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/refrescar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lista"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="88dp" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+            <TextView
+                android:id="@+id/lblVacio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="32dp"
+                android:textColor="@color/texto_secundario"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnNuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:contentDescription="Nuevo usuario"
+        android:src="@drawable/ic_agregar" />
+</FrameLayout>
