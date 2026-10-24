@@ -42,4 +42,4 @@ app/src/main/java/haiderpabon/guias/usuariosrender/
 
 ## APK
 
-El APK listo para instalar está en la sección **Releases** del repositorio.
+El APK listo para instalar está en la carpeta [`apk/`](apk/UsuariosRender-v1.0.apk). Para instalarlo en un celular hay que permitir la instalación de apps de origen desconocido.
